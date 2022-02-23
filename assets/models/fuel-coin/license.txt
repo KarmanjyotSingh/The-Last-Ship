@@ -1,0 +1,11 @@
+Model Information:
+* title:	Gasoline Canister
+* source:	https://sketchfab.com/3d-models/gasoline-canister-a20a6b9c97fb4197817e5e1c99756f5e
+* author:	Ilya Ostrovsky (https://sketchfab.com/strov)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Gasoline Canister" (https://sketchfab.com/3d-models/gasoline-canister-a20a6b9c97fb4197817e5e1c99756f5e) by Ilya Ostrovsky (https://sketchfab.com/strov) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
