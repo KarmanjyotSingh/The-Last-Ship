@@ -2,33 +2,39 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>The Last Ships</title>
+    <title>The-Last-Ship</title>
   </head>
+  <style src="style.css"></style>
   <body>
-    <div id="app"></div>
-    <script type="module" src="game.js"></script>
-    <div id="HUD">
-      <div id="HEALTH">
-        Health :
-        <div id="health">0</div>
+    <div class="rightHUD">
+      <div class="Score">
+        Score
+        <div id="ScoreVal">0</div>
       </div>
-      <!-- <div id="SCORE">
-        <div id="dataCell">Score :</div>
-        <div id="score">0</div>
+      <div class="Treasure">
+        Treasure
+        <div id="TreasureVal">0</div>
       </div>
-      <div id="TIME">
-        <div id="dataCell">Time :</div>
-        <div id="time">0</div>
-      </div>
-      <div id="TREASURE">
-        <div id="dataCell">Treasure :</div>
-        <div id="treasure">0</div>
-      </div>
-      <div id="FUEL">
-        <div id="dataCell">Fuel :</div>
-        <div id="fuel">0</div>
-      </div> -->
     </div>
+
+    <div class="HUD">
+      <div class="Health">
+        Health
+        <div id="HealthVal">0</div>
+      </div>
+
+      <div class="Ammo">
+        Ammo
+        <div id="AmmoVal">0</div>
+      </div>
+      <div class="Time">
+        Time
+        <div id="TimeVal">0</div>
+      </div>
+    </div>
+
+    <script type="module" src="/main.js"></script>
   </body>
 </html>
