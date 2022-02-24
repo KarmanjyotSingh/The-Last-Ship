@@ -509,7 +509,7 @@ function shootEnemy() {
             boat.score += 50;
             if (game.enemies[j].health <= 0) {
               // remove from the scene
-              for (let k = 0 ; k < game.enemies[j].bullets.length; k++) {
+              for (let k = 0; k < game.enemies[j].bullets.length; k++) {
                 game.scene.remove(game.enemies[j].bullets[k].mesh);
               }
               game.scene.remove(game.enemies[j].enemy);
@@ -553,7 +553,7 @@ function enemyBoatCollision() {
         // console.log(boat.health);
         // remove the enemy
         game.scene.remove(game.enemies[i].enemy);
-        for( let j = 0 ; j < game.enemies[i].bullets.length ; j++){
+        for (let j = 0; j < game.enemies[i].bullets.length; j++) {
           game.scene.remove(game.enemies[i].bullets[j].mesh);
         }
         game.enemies.splice(i, 1);
@@ -580,8 +580,9 @@ function chestBoatCollision() {
   }
 }
 // main game loop
+var id;
 function main() {
-  requestAnimationFrame(main);
+  id = requestAnimationFrame(main);
   game.rendererSetup();
   boat.update();
   updateEnemies();
@@ -593,7 +594,11 @@ function main() {
   shootPlayer();
   if (boat.boat && boat.health <= 0) {
     console.log("Game Over");
-  b  // game.scene.remove(boat.boat);
+    game.scene.remove(boat.boat);
+    cancelAnimationFrame(id);
+    alert("Game Over");
+    setTimeout(1000)
+    window.location.reload();
     // boat.boat = null;
   }
 
