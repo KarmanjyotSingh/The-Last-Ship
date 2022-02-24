@@ -5,6 +5,13 @@
 
 ### Survive through the braveries of ocean , filled with enemy war ships and sail through the world surviving .
 
+
+### To Play :
+- cd to the game folder 
+- npm i 
+- run npm run dev 
+- move over to localhost:3000 , and enjoy !!
+
 ### Features 
 #### Controls : 
 - <kbd>W</kbd> : To steer ship forward
