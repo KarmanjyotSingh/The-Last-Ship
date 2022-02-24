@@ -26,13 +26,13 @@ async function loadModel(url) {
   });
 }
 let fuelModel = null;
-async function createFuel(position) {
-  if (!fuelModel) {
-    fuelModel = await loadModel("assets/models/fuel-coin/scene.gltf");
-    return;
-  }
-  return new Fuel(position, fuelModel.clone());
-}
+// async function createFuel(position) {
+//   if (!fuelModel) {
+//     fuelModel = await loadModel("assets/models/fuel-coin/scene.gltf");
+//     return;
+//   }
+//   return new Fuel(position, fuelModel.clone());
+// }
 let enemyModel = null;
 async function createEnemy(position) {
   if (!enemyModel) {
@@ -722,7 +722,7 @@ function initInput() {
 }
 const boat = new Boat();
 await createEnemy(new THREE.Vector3(1, 4, 1));
-await createFuel(new THREE.Vector3(1, 4, 1));
+// await createFuel(new THREE.Vector3(1, 4, 1));
 // initiate the enemy objects
 let numEnemies = 5;
 for (let i = 0; i < numEnemies; i++) {

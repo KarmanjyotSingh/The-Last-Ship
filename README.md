@@ -5,7 +5,6 @@
 
 ### Survive through the braveries of ocean , filled with enemy war ships and sail through the world surviving .
 
-
 ### To Play :
 - cd to the game folder 
 - npm i 
