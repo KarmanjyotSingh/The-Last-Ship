@@ -1,8 +1,7 @@
 # The-Last-Ship
 
 
-![The Last Ship](https://i0.wp.com/www.ntemid.com/wp-content/uploads/2020/03/165-1653886_the-last-ship-wallpapers-33-best-hd-backgrounds.jpg?fit=1920%2C1080&ssl=1)
- 
+<img src = "./images/lastship.jpg alt="The Last Ship"> 
 
 ### Survive through the braveries of ocean , filled with enemy war ships and sail through the world surviving .
 
