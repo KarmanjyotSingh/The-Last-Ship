@@ -1,7 +1,7 @@
 # The-Last-Ship
 
 
-<img src = "./images/lastship.jpg alt="The Last Ship"> 
+<img src = "./images/lastship.jpg" alt="The Last Ship"> 
 
 ### Survive through the braveries of ocean , filled with enemy war ships and sail through the world surviving .
 
