@@ -1,6 +1,8 @@
 # The-Last-Ship
 
 <img src ="./images/readme.png" alt="The Last Ship">
+
+![The Last Ship](https://upload.wikimedia.org/wikipedia/en/e/ec/LastShipSeriesIntertitle.jpg)
  
 
 ### Survive through the braveries of ocean , filled with enemy war ships and sail through the world surviving .
