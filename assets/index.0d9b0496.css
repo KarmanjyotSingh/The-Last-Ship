@@ -1,0 +1,1 @@
+*{margin:0;padding:0}.HUD{position:absolute;color:#fff;padding:40px;font-size:30px;top:0;left:0;display:flex;flex-direction:column;align-items:left}.rightHUD{position:absolute;color:#fff;padding:40px;font-size:30px;top:0;right:0;display:flex;flex-direction:column;align-items:left}.Score,.Treasure{color:#fff;display:flex;flex-direction:column}
